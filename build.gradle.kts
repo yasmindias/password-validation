@@ -31,5 +31,13 @@ tasks.withType<KotlinCompile> {
 }
 
 tasks.withType<Test> {
-	useJUnitPlatform()
+	useJUnitPlatform {
+		includeTags("UnitTest")
+	}
+}
+
+tasks.register<Test>("integrationTest") {
+	useJUnitPlatform {
+		includeTags("IntegrationTest")
+	}
 }

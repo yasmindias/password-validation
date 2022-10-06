@@ -1,8 +1,10 @@
 package passwordvalidation.service
 
 import org.assertj.core.api.Assertions.assertThat
+import org.junit.jupiter.api.Tag
 import org.junit.jupiter.api.Test
 
+@Tag("UnitTest")
 internal class ValidationServiceTest {
     private val validationService: ValidationService = ValidationService()
 

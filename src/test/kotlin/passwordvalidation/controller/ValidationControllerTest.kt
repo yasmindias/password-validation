@@ -1,6 +1,7 @@
 package passwordvalidation.controller
 
 import com.fasterxml.jackson.databind.ObjectMapper
+import org.junit.jupiter.api.Tag
 import org.junit.jupiter.api.Test
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc
@@ -12,6 +13,7 @@ import passwordvalidation.model.Message
 
 @SpringBootTest
 @AutoConfigureMockMvc
+@Tag("IntegrationTest")
 class ValidationControllerTest @Autowired constructor(
     val mockMvc: MockMvc,
     val objectMapper: ObjectMapper
