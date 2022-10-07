@@ -24,6 +24,8 @@ A API pode ser acessada pela url `localhost:8080`.
 }
 ```
 
+> Esse projeto não utiliza SSL/TLS pois foge do escopo proposto mas a implementação dessa camada de segurança se faz necessária sempre que passamos dados sensíveis em um request.
+
 **Resposta**
 ```
 HTTP/1.1 200 OK
