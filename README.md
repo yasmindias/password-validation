@@ -1,13 +1,11 @@
 # Password Validation
 Esse projeto é uma API REST para validação de senhas. 
 Desenvolvido em Kotlin + SpringBoot. 
----
-## Instalação
+
+## Rodando o projeto
 ### Requisitos
 - JDK 8 ou superior
 
----
-## Rodando o projeto
 ```
 ./gradlew clean bootRun
 ```
@@ -39,7 +37,7 @@ Body:
   false
 }
 ```
----
+
 ## Rodando os testes
 
 ### Testes unitários
@@ -49,7 +47,7 @@ Body:
 ### Testes de Integração
 `./gradlew clean integrationTest`
 
----
+
 ## Discutindo a solução
 Decidi fazer a validação utilizando Regex porque deixa o código mais enxuto e a execução mais eficiente do que validar cada caso separadamente utilizando métodos de string.
 Essa validação é feita em duas etapas:
