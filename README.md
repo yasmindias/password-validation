@@ -3,9 +3,13 @@ Esse projeto é uma API REST para validação de senhas.
 Desenvolvido em Kotlin + SpringBoot. 
 
 ## Rodando o projeto
+
+## Instalação
 ### Requisitos
 - JDK 8 ou superior
 
+
+## Rodando o projeto
 ```
 ./gradlew clean bootRun
 ```
